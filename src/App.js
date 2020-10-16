@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
+    //using inline CSS, remove the bullet points from the list items and have them side-by-side
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <h1>Inline CSS!</h1>
+      <p>This is an example of inline CSS</p>
     </div>
   );
 }
